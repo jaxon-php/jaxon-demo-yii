@@ -48,12 +48,8 @@ $config = [
             'enableStrictParsing' => false,
             'rules' => [
                 '/' => 'demo/index',
+                '/jaxon' => 'demo/jaxon',
             ],
-        ],
-    ],
-    'modules' => [
-        'jaxon' => [
-            'class' => 'Jaxon\Yii\Module',
         ],
     ],
     'params' => $params,
