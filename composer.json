@@ -19,7 +19,7 @@
         "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
         "jaxon-php/jaxon-yii": "^4.0",
         "jaxon-php/jaxon-dialogs": "^4.0",
-        "jaxon-php/jaxon-annotations": "^1.1"
+        "jaxon-php/jaxon-annotations": "^1.2"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",
