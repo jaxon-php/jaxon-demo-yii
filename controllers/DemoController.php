@@ -9,6 +9,9 @@ use Yii;
 use yii\web\Controller;
 use yii\helpers\Url;
 
+use function Jaxon\jaxon;
+use function Jaxon\pm;
+
 class DemoController extends Controller
 {
     public function behaviors()
@@ -53,6 +56,8 @@ class DemoController extends Controller
             'bts' => $jaxon->request(Bts::class),
             // Jaxon request to the Jaxon\App\Test\Pgw Jaxon class
             'pgw' => $jaxon->request(Pgw::class),
+            // Jaxon Parameter Factory
+            'pm' => pm(),
         ));
     }
 }
